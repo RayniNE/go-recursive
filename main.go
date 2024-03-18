@@ -9,9 +9,11 @@ func main() {
 	unsorted := getRandomArray()
 	fmt.Println("Unsorted Array")
 	fmt.Println(unsorted)
+	fmt.Println()
 
 	sorted := mergeSort(unsorted)
 
+	fmt.Println()
 	fmt.Println("Sorted Array")
 	fmt.Println(sorted)
 }
